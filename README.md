@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+# Flex Page Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Flex Page Example** project! This is a simple demonstration of a responsive web page layout using **CSS Flexbox**. The goal of this project is to showcase how Flexbox can be used to create flexible and adaptive layouts that work seamlessly across different screen sizes and devices.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [Flex Page Example](https://flex-page-example.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Responsive Design**: The layout adapts to different screen sizes, ensuring a consistent user experience on desktops, tablets, and mobile devices.
+- **Flexbox Layout**: Utilizes CSS Flexbox for creating flexible and dynamic layouts.
+- **Simple and Clean**: The design is minimalistic and easy to understand, making it a great starting point for learning Flexbox.
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+To get a local copy of this project up and running, follow these simple steps:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Prerequisites
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Node.js installed (download it [here](https://nodejs.org/)).
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Installation
+
+1. **Clone the repository**:
+   ```
+   git clone https://github.com/your-username/flex-page-example.git
+   ```
+2. **Navigate to the project directory**:
+   ```
+   cd flex-page-example
+   ```
+3. **Install node dependencies**:
+   ```
+   npm install
+   ```
+4. **Run the project**:
+   ```
+   npm run dev
+   ```
+
+Thank you for checking out the Flex Page Example! We hope you find it useful and informative. Happy coding! 🚀
